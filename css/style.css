@@ -1,0 +1,187 @@
+:root {
+  --secondary-font-color: #ffffff;
+  --primary-font-color: #212121;
+  --secondary-color-interactive-elements: #2196f3;
+  --additional-font-color: #757575;
+  --primary-background-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --footer-background-color: #2f303a;
+  --mane-background-secondary-color: #f5f4fa;
+}
+
+body {
+  font-family: "roboto", "sans-serif";
+  color: var(--primary-font-color);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  color: var(--primary-font-color);
+  text-decoration: none;
+  font-style: normal;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/*-------------------- шапка сайта ------------------*/
+
+.header {
+  background-color: var(--primary-background-color);
+}
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-text {
+  color: var(--secondary-color-interactive-elements);
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--secondary-color-interactive-elements);
+}
+.header-address {
+  color: var(--additional-font-color);
+}
+.header-address:hover,
+.header-address:focus {
+  color: var(--secondary-color-interactive-elements);
+}
+/*-------------------- hero ------------------*/
+
+.hero {
+  color: var(--secondary-font-color);
+  background-color: var(--hero-background-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  color: var(--secondary-font-color);
+  background-color: var(--secondary-color-interactive-elements);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+/*-------------------- work ------------------*/
+.work-topic {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.work-text {
+  color: var(--additional-font-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.work-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*-------------------- team ------------------*/
+.team {
+  background-color: var(--mane-background-secondary-color);
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-employee {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-desc {
+  color: var(--additional-font-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*-------------------- footer ------------------*/
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+.footer-logo {
+  color: var(--secondary-font-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.footer-adress {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-adress[href^="#"] {
+  color: var(--secondary-font-color);
+}
+/*-------------------- portfolio ------------------*/
+.cards-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.cards-btn:hover,
+.cards-btn:focus {
+  color: var(--secondary-font-color);
+  background-color: var(--secondary-color-interactive-elements);
+}
+.cards-desc {
+  color: var(--primary-font-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.cards-text {
+  color: var(--additional-font-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
