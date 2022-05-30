@@ -62,6 +62,10 @@ body {
 }
 .header-address {
   color: var(--additional-font-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,14;
+  letter-spacing: 0.02em;
 }
 .header-address:hover,
 .header-address:focus {
@@ -155,9 +159,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.footer-adress[href^="#"] {
+.footer-adress:hover,
+.footer-adress:focus {
   color: var(--secondary-font-color);
 }
+
 /*-------------------- portfolio ------------------*/
 .cards-btn {
   font-family: inherit;
